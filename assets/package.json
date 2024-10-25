@@ -1,0 +1,27 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "deploy": "webpack --mode production",
+    "watch": "webpack --mode development --watch --watch-options-stdin",
+    "build": "webpack --mode production",
+    "vue-i18n-extract": "vue-i18n-extract"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vue": "^3.5.12",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.5.12",
+    "css-loader": "^7.1.2",
+    "vue-loader": "^17.3.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
